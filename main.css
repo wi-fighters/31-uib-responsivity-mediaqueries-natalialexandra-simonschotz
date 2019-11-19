@@ -20,7 +20,7 @@ li {
 
 /* responsive */
 
-/* phone */
+/* mobile phones */
 
 @media (min-width: 376px) {
   body {
@@ -28,13 +28,14 @@ li {
   }
 }
 
+/* tablets */
+
 @media (min-width: 426px) {
   body {
     border-color: green;
   }
 }
 
-/* tablets */
 @media (min-width: 769px) {
   body {
     border-color: yellow;
@@ -42,7 +43,8 @@ li {
 }
 
 /* desktops */
-@media (min-width: 1025px) {
+
+@media (min-width: 1025px) and (max-width: 1440px) {
   body {
     border-color: hotpink;
   }
