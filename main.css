@@ -4,8 +4,9 @@ body {
   border-style: solid;
   border-color: red;
   color: rgb(100, 100, 100);
-  background-color: yellow;
+  background-color: rgb(39, 39, 35);
 }
+
 /* HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 main {
   margin: 15px;
