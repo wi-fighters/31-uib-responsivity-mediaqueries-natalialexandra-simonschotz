@@ -1,6 +1,8 @@
 body {
     height: 100vh;
-    border: 10px solid black;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
 }
 
 main {
@@ -12,3 +14,36 @@ main {
 li {
     margin-bottom: 5px;
 }
+
+/* responsive */
+
+/* phone */
+
+@media (min-width: 376px) { 
+    body {
+        border-color: blue;
+    }
+}
+
+@media (min-width: 426px) { 
+body {
+        border-color: green;
+    }
+}
+
+/* tablets */
+@media (min-width: 769px) {
+body {
+        border-color: yellow;
+    }
+}
+
+/* desktops */
+@media (min-width: 1025px) {
+body {
+        border-color: hotpink;
+    }
+}
+
+
+
